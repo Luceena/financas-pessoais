@@ -1,0 +1,11 @@
+# Configurações do Streamlit para este projeto.
+
+[server]
+# Só aceita conexões do próprio computador. Sem isso, qualquer pessoa na
+# mesma rede Wi-Fi poderia abrir o app e ver suas finanças.
+address = "localhost"
+port = 8501
+
+[browser]
+# Não envia estatísticas de uso para o Streamlit.
+gatherUsageStats = false
